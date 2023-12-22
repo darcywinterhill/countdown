@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,4 +13,48 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow: 0 0 5px #FFECD1, 0 0 15px #FFECD1, 0 0 20px #782905, 0 0 40px #782905, 0 0 60px #fff, 0 0 10px #782905, 0 0 98px #fff;
+    color: #111;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+  text-shadow: 0 0 5px #FFECD1, 0 0 15px #FFECD1, 0 0 20px #FF7D00, 0 0 40px #FF7D00, 0 0 60px #001524, 0 0 10px #FF7D00, 0 0 98px #001524;
+    color: #001524;
+  }
 }

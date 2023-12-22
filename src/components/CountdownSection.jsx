@@ -11,7 +11,7 @@ const CountdownSection = ({ id, height, dueDate }) => {
       id={id} 
       style={{
         height: height, 
-        backgroundColor: date < endDate ? "#FFECD1" : "#FF7D00"
+        backgroundColor: date < endDate ? "#FFECD1" : "#001524"
       }}>
     </div>
   )

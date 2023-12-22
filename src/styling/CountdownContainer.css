@@ -1,9 +1,16 @@
 .Background {
   display: flex;
-  flex-direction: row;
-  background-color: #001524;
+  flex-direction: column;
+  background-color: #FF7D00;
   width: 100%;
   height: 100%;
+}
+
+.CountdownContent {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding: 0 25px;
 }
 
 .CountdownWrapper {

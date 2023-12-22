@@ -12,7 +12,6 @@ const LeftSideContent = () => {
         <h1>Countdown</h1>
       </div>
       <Countdown deadline={deadline} />
-
     </div>
   )
 }

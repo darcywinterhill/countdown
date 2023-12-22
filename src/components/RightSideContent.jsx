@@ -6,51 +6,51 @@ const RightSideContent = () => {
   return (
     <div className="TechContainer">
       <TechWrapper 
-        tech="Cloud"
+        tech="- Cloud"
         height="10%"
       />
       <TechWrapper 
-        tech="Final Project"
+        tech="- Final Project"
         height="15%"
       />
       <TechWrapper 
-        tech="ASP.NET, MVC"
+        tech="- ASP.NET, MVC"
         height="5%"
       />
       <TechWrapper 
-        tech="MVC"
+        tech="- MVC"
         height="5%"
       />
       <TechWrapper 
-        tech="ASP.NET, Web API"
+        tech="- ASP.NET, Web API"
         height="5%"
       />
       <TechWrapper 
-        tech="Entity Framework"
+        tech="- Entity Framework"
         height="5%"
       />
       <TechWrapper 
-        tech="ADO.NET, LINQ"
+        tech="- ADO.NET, LINQ"
         height="5%"
       />
       <TechWrapper 
-        tech="C# Database Methodology, SQL"
+        tech="- C# Database Methodology, SQL"
         height="5%"
       />
       <TechWrapper 
-        tech="Project Management/Agile, Scrum"
+        tech="- Project Management/Agile, Scrum"
         height="5%"
       />
       <TechWrapper 
-        tech="React"
+        tech="- React"
         height="10%"
       />
       <TechWrapper 
-        tech="HTML, CSS & JavaScript"
+        tech="- HTML, CSS & JavaScript"
         height="5%"
       />
       <TechWrapper 
-        tech="C#"
+        tech="- C#"
         height="20%"
       />
     </div>

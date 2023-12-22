@@ -1,10 +1,20 @@
 
-
 .AboutContainer {
-  width: 45%;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
+.TitleContainer {
+  background-color: #15616D;
+  height: fit-content;
+}
 .AboutContainer h1 {
-  color: white;
+  color: #fff;
+  font-size: 42px;
+  font-family: 'Bungee Shade', sans-serif;
+  margin: 0;
+
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
 }

@@ -1,6 +1,5 @@
 .Section {
-  width: 150px;
-  height: 150px;
+  width: 80px;
 }
 
 .Section:nth-child(12) {

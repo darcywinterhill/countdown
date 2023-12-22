@@ -1,3 +1,5 @@
+import "../styling/Countdown.css";
+
 import React, { useEffect, useState } from "react";
 
 const Countdown = ({ deadline }) => {
@@ -23,9 +25,7 @@ const Countdown = ({ deadline }) => {
   }, [deadline]);
 
   return (
-    <div>
-      <div className="CounterDays">{leading0(days)} Days</div>
-    </div>
+    <div className="CounterDays">- {leading0(days)} days left -</div>
   );
 };
 
