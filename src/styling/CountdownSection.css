@@ -1,0 +1,9 @@
+.Section {
+  width: 150px;
+  height: 150px;
+}
+
+.Section:nth-child(12) {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}

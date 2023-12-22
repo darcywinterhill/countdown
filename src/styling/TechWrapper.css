@@ -1,0 +1,9 @@
+.TechSection {
+  width: 100%;
+}
+
+.TechSection p {
+  text-align: left;
+  color: white;
+  margin: 0;
+}
