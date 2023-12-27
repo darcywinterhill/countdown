@@ -1,5 +1,5 @@
 # Education Countdown
-A countdown app built w/ React.
+A simple countdown app built w/ React.
 
 ## Project Description
 
