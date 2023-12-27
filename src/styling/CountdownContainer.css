@@ -7,6 +7,7 @@
 }
 
 .CountdownContent {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -19,4 +20,30 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .CountdownContent {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Background {
+    flex-direction: row;
+  }
+
+  .CountdownContent {
+    height: 100%;
+    width: 50%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .CountdownWrapper {
+    height: 90%;
+  }
 }

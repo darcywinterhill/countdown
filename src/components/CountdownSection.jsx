@@ -1,6 +1,6 @@
 import "../styling/CountdownSection.css";
 
-const CountdownSection = ({ id, height, dueDate }) => {
+const CountdownSection = ({ height, dueDate }) => {
 
   let date = new Date();
   let endDate = new Date(dueDate)
@@ -8,7 +8,6 @@ const CountdownSection = ({ id, height, dueDate }) => {
   return (
     <div 
       className="Section" 
-      id={id} 
       style={{
         height: height, 
         backgroundColor: date < endDate ? "#FFECD1" : "#001524"

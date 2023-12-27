@@ -1,7 +1,26 @@
 .CounterDays {
+  box-sizing: border-box;
   color: #FFECD1;
   font-size: 22px;
   font-family: 'Bebas Neue', sans-serif;
-  background-color: #782905;
+  background-color: #15616D;
   padding: 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .CounterDays {
+    height: 40%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .CounterDays {
+    height: auto;
+    padding: 15px 0;
+  }
 }

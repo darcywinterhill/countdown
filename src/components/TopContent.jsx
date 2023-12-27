@@ -1,19 +1,21 @@
-import "../styling/LeftSideContent.css";
+import "../styling/TopContent.css";
 
 import Countdown from "./Countdown";
 
-const LeftSideContent = () => {
+const TopContent = () => {
 
   let deadline = "March, 06, 2024";
 
   return (
     <div className="AboutContainer">
       <div className="TitleContainer">
-        <h1>Countdown</h1>
+        <h1>
+          Countdown
+        </h1>
       </div>
       <Countdown deadline={deadline} />
     </div>
   )
 }
 
-export default LeftSideContent;
+export default TopContent;

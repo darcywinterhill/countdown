@@ -6,3 +6,9 @@
   justify-content: center;
   margin-left: 15px;
 }
+
+@media screen and (min-width: 1024px) {
+  .TechContainer {
+    height: 90%;
+  }
+}
