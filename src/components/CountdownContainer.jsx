@@ -13,7 +13,7 @@ const CountdownContainer = () => {
         <div className="CountdownWrapper">
           <CountdownSection 
             height="10%"
-            dueDate="2024-03-09"
+            dueDate="2024-03-12"
           />
           <CountdownSection  
             height="15%"

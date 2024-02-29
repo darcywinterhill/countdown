@@ -4,7 +4,7 @@ import Countdown from "./Countdown";
 
 const TopContent = () => {
 
-  let deadline = "March, 06, 2024";
+  let deadline = "March, 12, 2024";
 
   return (
     <div className="AboutContainer">

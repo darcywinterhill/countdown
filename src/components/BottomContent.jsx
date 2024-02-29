@@ -6,9 +6,9 @@ const BottomContent = () => {
   return (
     <div className="TechContainer">
       <TechWrapper 
-        tech="- Cloud"
+        tech="- AZ-900 Exam"
         height="10%"
-        dueDate="2024-03-09"
+        dueDate="2024-03-12"
       />
       <TechWrapper 
         tech="- Final Project"
